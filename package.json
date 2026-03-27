@@ -1,0 +1,25 @@
+{\n  
+  "name": "iamamath",\n  
+  "version": "1.0.0",\n  
+  "main": "index.js",\n  
+  "dependencies": {\n    
+    "@react-navigation/native": "^6.0.0",\n    
+    "@react-navigation/stack": "^6.0.0",\n    
+    "react-native-gesture-handler": "^2.0.0",\n    
+    "react-native-reanimated": "^2.0.0",\n    
+    "@reduxjs/toolkit": "^1.6.0",\n    
+    "react-redux": "^7.2.0",\n    
+    "react": "17.0.0",\n    
+    "react-native": "~0.64.0",\n    
+    "expo": "^43.0.0",\n    
+    "lodash": "^4.17.21"\n  },\n  
+  "scripts": {\n    
+    "start": "expo start",\n    
+    "android": "expo run:android",\n    
+    "ios": "expo run:ios",\n    
+    "web": "expo run:web",\n    
+    "test": "jest"\n  },\n  
+  "jest": {\n    
+    "preset": "react-native",\n    
+    "transform": {\n      
+      "/\.(js|jsx|ts|tsx)$/": "babel-jest"\n    }\n  }\n}
